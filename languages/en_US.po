@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: User Feedback\n"
+"POT-Creation-Date: 2022-12-07 01:01+0600\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: shuvorroy@gmail.com\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: includes/blocks/user-form/node_modules\n"
+
+#: includes/blocks/user-form/src/edit.js:42
+#: includes/blocks/user-form/src/save.js:11
+msgid "First Name *"
+msgstr ""
+
+#: includes/blocks/user-form/src/edit.js:46
+#: includes/blocks/user-form/src/save.js:15
+msgid "Last Name *"
+msgstr ""
+
+#: includes/blocks/user-form/src/edit.js:52
+#: includes/blocks/user-form/src/save.js:21
+msgid "Email *"
+msgstr ""
+
+#: includes/blocks/user-form/src/edit.js:58
+#: includes/blocks/user-form/src/save.js:27
+msgid "Subject *"
+msgstr ""
+
+#: includes/blocks/user-form/src/edit.js:64
+#: includes/blocks/user-form/src/save.js:33
+msgid "Message *"
+msgstr ""
+
+#: includes/classes/class-ajax.php:29
+msgid "Thank you for sending us your feedback"
+msgstr ""
+
+#: includes/classes/class-ajax.php:32
+msgid "Something went wrong!"
+msgstr ""
+
+#: includes/classes/class-assets.php:111 includes/classes/class-db.php:124
+msgid "Sorry! no feedback found."
+msgstr ""
+
+#: includes/classes/class-assets.php:113
+msgid "This email is invalid"
+msgstr ""
+
+#: includes/classes/class-assets.php:114
+msgid "This field is required"
+msgstr ""
+
+#: views/frontend/list.php:3
+msgid "User Feedbacks"
+msgstr ""
+
+#: views/frontend/list.php:7
+msgid "Search"
+msgstr ""
+
+#: views/frontend/list.php:10
+msgid "Filter"
+msgstr ""
+
+#: views/frontend/list.php:13
+msgid "Reset"
+msgstr ""
+
+#: views/frontend/list.php:16
+msgid "Sort by: "
+msgstr ""
+
+#: views/frontend/list.php:18
+msgid "Newest"
+msgstr ""
+
+#: views/frontend/list.php:19
+msgid "Oldest"
+msgstr ""
+
+#: views/frontend/list.php:23
+msgid "Show: "
+msgstr ""
+
+#: views/frontend/list.php:53
+msgid "Remove"
+msgstr ""
+
+#: views/frontend/list.php:66
+msgid "Prev"
+msgstr ""
+
+#: views/frontend/list.php:76
+msgid "Next"
+msgstr ""
+
+#: views/frontend/list.php:84
+msgid "First Name"
+msgstr ""
+
+#: views/frontend/list.php:88
+msgid "Last Name"
+msgstr ""
+
+#: views/frontend/list.php:92
+msgid "Email"
+msgstr ""
+
+#: views/frontend/list.php:96
+msgid "Subject"
+msgstr ""
+
+#: views/frontend/list.php:100
+msgid "Message"
+msgstr ""
+
+#: views/frontend/list.php:109
+msgid "You are not authorized to view the content of this page"
+msgstr ""

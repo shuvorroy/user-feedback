@@ -1,0 +1,22 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"title": "Feedback Form",
+	"name": "user-feedback/feedback-form",
+	"category": "layout",
+	"icon": "forms",
+	"textdomain": "user-feedback",
+	"editorScript": "file:./build/index.js",
+    "editorStyle": "file:./assets/editor.css",
+	"style": "file:./assets/style.css",
+	"attributes": {
+		"formTitle": {
+			"type": "string",
+			"default": "Submit Your Feedback"
+		},
+		"buttonText": {
+			"type": "string",
+			"default": "Submit"
+		}
+	}
+}

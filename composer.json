@@ -1,0 +1,19 @@
+{
+	"name": "sr/user-feedback-plugin",
+	"description": "A plugin for user feedback",
+	"type": "wordpress-plugin",
+	"license": "GPLv2",
+	"authors": [
+		{
+			"name": "Shuvo Roy",
+			"email": "shuvorroy@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {},
+	"autoload": {
+		"classmap": [
+			"includes/classes/"
+		]
+	}
+}

@@ -1,0 +1,113 @@
+.user-feedback, .user-feedback * {
+    margin: 0;
+    padding: 0;
+    border: none;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.user-feedback h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.user-feedback .two-cols,
+.user-feedback .one-cols,
+.user-feedback .btns {
+    margin-bottom: 15px;
+}
+
+
+.user-feedback .two-cols {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.user-feedback label {
+    flex-basis: 100%;
+}
+
+.user-feedback span.input-error{
+    color: #ff3636;
+}
+
+.user-feedback input[type="text"],
+.user-feedback input[type="email"],
+.user-feedback textarea {
+    display: block;
+    width: 100%;
+    padding: 10px 5px;
+    border: 2px solid gray;
+    font-size: 1rem;
+    line-height: 1;
+    border-radius: 0;
+}
+
+.user-feedback input[type="text"].input-error,
+.user-feedback input[type="email"].input-error,
+.user-feedback textarea.input-error {
+    border: 2px solid #ff3636;
+}
+
+.user-feedback input[type="text"]:focus,
+.user-feedback input[type="email"]:focus,
+.user-feedback textarea:focus {
+    outline: 2px solid #555555;
+}
+
+.user-feedback .btns {
+    display: flex;
+    justify-content: center;
+}
+
+.user-feedback button  {
+    padding: 10px 20px;
+    background-color: #008CBA !important;
+    color: #fff !important;
+    transition: all .25s ease-in-out;
+    font-size: 1rem;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.user-feedback button:hover  {
+    background-color: #555555 !important;
+}
+
+.user-feedback p.submit-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-feedback p.submit-message.success {
+    color: #00af6f;
+    border: 3px solid #00af6f;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.user-feedback p.submit-message.error {
+    background-color: #ff6347;
+    color: #fff;
+}
+
+.user-feedback .loader-container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  .user-feedback .loader-container.loader-container.show {
+    display: flex;
+  }
+
+
